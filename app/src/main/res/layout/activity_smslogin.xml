@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#E5FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="59dp"
+        android:src="@mipmap/ic_launcher_round2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginLeft="40dp"-->
+    <!--        android:layout_marginTop="13dp"-->
+    <!--        android:layout_marginRight="40dp"-->
+    <!--        android:text="@string/login_title"-->
+    <!--        android:textColor="#3d3d3d"-->
+    <!--        android:textSize="18sp" />-->
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="短信验证码登录"
+        android:textColor="@color/black"
+
+        android:textSize="23sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo" />
+
+    <LinearLayout
+        android:id="@+id/ll_sms_login"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_sms_background"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phone">
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:background="@null"
+            android:gravity="left|center"
+            android:hint="@string/put_phone_here"
+            android:inputType="phone"
+            android:textColor="@color/secondary_text_light" />
+
+    </LinearLayout>
+
+
+    <!--    <com.fbkj.dzxc.v2.widgets.EditSmsCode-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:layout_marginHorizontal="40dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/ll_sms"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/fetch_sms_code"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="45dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:text="@string/get_sms_code"-->
+    <!--        android:gravity="center"-->
+    <!--        android:clickable="true"-->
+    <!--        android:textColor="@color/primary_text_light"-->
+    <!--        android:textSize="17sp"-->
+    <!--        android:layout_marginHorizontal="40dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/ll_sms"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        android:focusable="true" />-->
+
+    <LinearLayout
+        android:id="@+id/ll_sms_code"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_sms_background"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_sms_login">
+
+        <EditText
+            android:id="@+id/et_sms"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:background="@null"
+            android:gravity="start|center"
+            android:hint="@string/put_code_here"
+            android:inputType="numberSigned"
+            android:textColor="@color/secondary_text_light" />
+
+        <TextView
+            android:id="@+id/request_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:gravity="end|center"
+            android:text="(60s)"
+            android:textColor="@color/color_6f" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sms_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/has_send_to"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_sms_code" />
+
+    <TextView
+        android:id="@+id/sms_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/sms_login_button"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_sms_code" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_check"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="18dp"
+            android:src="@drawable/ic_not_confirm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我已阅读并同意"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_fw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_agreement"
+            android:layout_marginHorizontal="@dimen/dp_10"
+            android:textColor="@color/color_1296db"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_py"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privacy_policy"
+            android:layout_marginHorizontal="@dimen/dp_10"
+            android:textColor="@color/color_1296db"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

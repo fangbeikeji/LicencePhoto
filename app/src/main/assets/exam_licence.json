@@ -1,0 +1,268 @@
+{
+  "fetcher": [
+    {
+      "sizeName": "导游证",
+      "sizePixel": "285*385 px",
+      "sizeUnit": "24*33 mm",
+      "sizeIndex": 301
+    },
+    {
+      "sizeName": "教师资格证",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 302
+    },
+    {
+      "sizeName": "入学照",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 303
+    },
+    {
+      "sizeName": "国考（二寸）",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 304
+    },
+    {
+      "sizeName": "国家司法考试",
+      "sizePixel": "413*626 px",
+      "sizeUnit": "35*53 mm",
+      "sizeIndex": 305
+    },
+    {
+      "sizeName": "二级建造师证",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 306
+    },
+    {
+      "sizeName": "一级建造师证（电子版）",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "40*53 mm",
+      "sizeIndex": 307
+    },
+    {
+      "sizeName": "二级建造师证",
+      "sizePixel": "455*661 px",
+      "sizeUnit": "39*56 mm",
+      "sizeIndex": 308
+    },
+    {
+      "sizeName": "职业兽医证",
+      "sizePixel": "230*334 px",
+      "sizeUnit": "19*28 mm",
+      "sizeIndex": 309
+    },
+    {
+      "sizeName": "成人自考",
+      "sizePixel": "384*512 px",
+      "sizeUnit": "33*43 mm",
+      "sizeIndex": 310
+    },
+    {
+      "sizeName": "成人自考",
+      "sizePixel": "294*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 311
+    },
+    {
+      "sizeName": "公务员考试",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 312
+    },
+    {
+      "sizeName": "会计从业资格证",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 313
+    },
+    {
+      "sizeName": "英语四六级考试",
+      "sizePixel": "144*172 px",
+      "sizeUnit": "12*15 mm",
+      "sizeIndex": 314
+    },
+    {
+      "sizeName": "英语四六级考试",
+      "sizePixel": "144*192 px",
+      "sizeUnit": "12*16 mm",
+      "sizeIndex": 315
+    },
+    {
+      "sizeName": "英语四六级考试",
+      "sizePixel": "240*320 px",
+      "sizeUnit": "20*27 mm",
+      "sizeIndex": 316
+    },
+    {
+      "sizeName": "学位英语",
+      "sizePixel": "390*567 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 317
+    },
+    {
+      "sizeName": "英语AB级考试",
+      "sizePixel": "390*567 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 318
+    },
+    {
+      "sizeName": "普通话水平测试",
+      "sizePixel": "390*567 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 319
+    },
+    {
+      "sizeName": "全国计算机考试",
+      "sizePixel": "390*567 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 320
+    },
+    {
+      "sizeName": "职业药师资格证（一寸）",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 321
+    },
+    {
+      "sizeName": "职业药师资格证（二寸）",
+      "sizePixel": "413*579 px",
+      "sizeUnit": "35*49 mm",
+      "sizeIndex": 322
+    },
+    {
+      "sizeName": "职业药师资格报名",
+      "sizePixel": "354*472 px",
+      "sizeUnit": "30*40 mm",
+      "sizeIndex": 323
+    },
+    {
+      "sizeName": "学籍照片",
+      "sizePixel": "358*441 px",
+      "sizeUnit": "30*37 mm",
+      "sizeIndex": 324
+    },
+    {
+      "sizeName": "入学报名（一寸）",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 325
+    },
+    {
+      "sizeName": "大学入学",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 326
+    },
+    {
+      "sizeName": "高考报名",
+      "sizePixel": "420*560 px",
+      "sizeUnit": "36*47 mm",
+      "sizeIndex": 327
+    },
+    {
+      "sizeName": "全国计算机考试",
+      "sizePixel": "571*800 px",
+      "sizeUnit": "48*68 mm",
+      "sizeIndex": 328
+    },
+    {
+      "sizeName": "一级建造师证（电子版）",
+      "sizePixel": "472*630 px",
+      "sizeUnit": "40*53 mm",
+      "sizeIndex": 329
+    },
+    {
+      "sizeName": "护士职业资格考试",
+      "sizePixel": "210*276 px",
+      "sizeUnit": "18*23 mm",
+      "sizeIndex": 330
+    },
+    {
+      "sizeName": "公务员考试报名",
+      "sizePixel": "340*450 px",
+      "sizeUnit": "29*38 mm",
+      "sizeIndex": 331
+    },
+    {
+      "sizeName": "成人自考（本科）",
+      "sizePixel": "480*720 px",
+      "sizeUnit": "41*61 mm",
+      "sizeIndex": 332
+    },
+    {
+      "sizeName": "自考学位外语考试",
+      "sizePixel": "390*567 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 333
+    },
+    {
+      "sizeName": "英语四级考试",
+      "sizePixel": "480*640 px",
+      "sizeUnit": "41*54 mm",
+      "sizeIndex": 334
+    },
+    {
+      "sizeName": "二级建造师（天津）",
+      "sizePixel": "160*200 px",
+      "sizeUnit": "14*17 mm",
+      "sizeIndex": 335
+    },
+    {
+      "sizeName": "二级建造师（湖南）",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "11*14 mm",
+      "sizeIndex": 336
+    },
+    {
+      "sizeName": "英语AB级考试",
+      "sizePixel": "144*192 px",
+      "sizeUnit": "12*16 mm",
+      "sizeIndex": 337
+    },
+    {
+      "sizeName": "英语三级考试",
+      "sizePixel": "144*192 px",
+      "sizeUnit": "12*16 mm",
+      "sizeIndex": 338
+    },
+    {
+      "sizeName": "公务员考试",
+      "sizePixel": "130*170 px",
+      "sizeUnit": "11*14 mm",
+      "sizeIndex": 339
+    },
+    {
+      "sizeName": "二级建造师（西藏）",
+      "sizePixel": "455*661 px",
+      "sizeUnit": "39*56 mm",
+      "sizeIndex": 340
+    },
+    {
+      "sizeName": "公务员考试",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 341
+    },
+    {
+      "sizeName": "保险职业认证",
+      "sizePixel": "210*270 px",
+      "sizeUnit": "18*23 mm",
+      "sizeIndex": 342
+    },
+    {
+      "sizeName": "注册会计师",
+      "sizePixel": "178*220 px",
+      "sizeUnit": "15*19 mm",
+      "sizeIndex": 343
+    },
+    {
+      "sizeName": "保险职业证",
+      "sizePixel": "210*370 px",
+      "sizeUnit": "18*31 mm",
+      "sizeIndex": 344
+    }
+  ]
+}

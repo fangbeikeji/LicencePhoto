@@ -1,0 +1,76 @@
+{
+  "fetcher": [
+    {
+      "sizeName": "一寸",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 101
+    },
+    {
+      "sizeName": "二寸",
+      "sizePixel": "413*579 px",
+      "sizeUnit": "35*49 mm",
+      "sizeIndex": 102
+    },
+    {
+      "sizeName": "小一寸",
+      "sizePixel": "260*378 px",
+      "sizeUnit": "22*32 mm",
+      "sizeIndex": 103
+    },
+    {
+      "sizeName": "小二寸",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 104
+    },
+    {
+      "sizeName": "电子护照",
+      "sizePixel": "389*566 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 205
+    },
+    {
+      "sizeName": "海外申请",
+      "sizePixel": "389*566 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 206
+    },
+    {
+      "sizeName": "入学照",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 303
+    },
+    {
+      "sizeName": "成人自考",
+      "sizePixel": "384*512 px",
+      "sizeUnit": "33*43 mm",
+      "sizeIndex": 310
+    },
+    {
+      "sizeName": "身份证",
+      "sizePixel": "307*377 px",
+      "sizeUnit": "26*32 mm",
+      "sizeIndex": 401
+    },
+    {
+      "sizeName": "居住证",
+      "sizePixel": "307*377 px",
+      "sizeUnit": "26*32 mm",
+      "sizeIndex": 402
+    },
+    {
+      "sizeName": "社保卡",
+      "sizePixel": "258*441 px",
+      "sizeUnit": "26*32 mm",
+      "sizeIndex": 403
+    },
+    {
+      "sizeName": "驾驶证、驾照",
+      "sizePixel": "259*377 px",
+      "sizeUnit": "22*32 mm",
+      "sizeIndex": 404
+    }
+  ]
+}

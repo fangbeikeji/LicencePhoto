@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/back_step.xml" value="0.3175925925925926" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/background_transparent_crop.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/banner_selected.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/bg_blue_select.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/drawable_address_crop.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/drawable_input_text.xml" value="0.33605720122574056" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/drawable_pay.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/drawable_top_radius.xml" value="0.2935185185185185" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/drawable_vip_crop.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/ic_clear_all.xml" value="0.2916666666666667" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/ic_delete.xml" value="0.33425925925925926" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/ic_more_options.xml" value="0.33425925925925926" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/ic_take_photo.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/ic_user_privacy.xml" value="0.3411458333333333" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/new_next_step.xml" value="0.3175925925925926" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/next_step.xml" value="0.25925925925925924" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/sb_list.xml" value="0.3" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/sb_thumb.xml" value="0.29444444444444445" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/search_info_title.xml" value="0.2916666666666667" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/thumb_point.xml" value="0.3" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/drawable/tv_confirm_bg.xml" value="0.33425925925925926" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/about_us_activity.xml" value="0.30978260869565216" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_complain.xml" value="0.2821557971014493" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_main.xml" value="0.29483695652173914" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_normalize.xml" value="0.18" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_pay_suceess.xml" value="0.29528985507246375" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_save_licence.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_smslogin.xml" value="0.2907608695652174" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/activity_web_view.xml" value="0.29030797101449274" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/background_fragment.xml" value="0.26268115942028986" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/buffing_fragment.xml" value="0.29030797101449274" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/camera_view_activity.xml" value="0.15615539858728558" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/dialog_contact_us.xml" value="0.25" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/down_load_page_activity.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/flush_page2_activity.xml" value="0.29393115942028986" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/fragment_electron_version.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/fragment_flush_out.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/fragment_mine.xml" value="0.2821557971014493" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/fragment_reload.xml" value="0.2980072463768116" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/guide_activity.xml" value="0.29528985507246375" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/home_fragment.xml" value="0.2884963768115942" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/more_size_activity.xml" value="0.2921195652173913" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/my_ele_order_item.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/my_licence_activity.xml" value="0.3211050724637681" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/my_licence_item.xml" value="0.2821557971014493" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/my_order_activity.xml" value="0.30978260869565216" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/my_order_flush_item.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/my_set_activity.xml" value="0.29528985507246375" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/option_menu.xml" value="0.2821557971014493" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/order_detail_activity.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/preview_edit_activity.xml" value="0.29438405797101447" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/recommend_activity.xml" value="0.2821557971014493" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/search_activity.xml" value="0.2857789855072464" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/search_item.xml" value="0.2921195652173913" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/setting_item_layout.xml" value="0.30978260869565216" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/splash_activity.xml" value="0.14266304347826086" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/start_popup.xml" value="0.2971014492753623" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/layout/tab_custom_view_home.xml" value="0.29483695652173914" />
+        <entry key="..\:/work/LicencePhoto/licence-photo/app/src/main/res/menu/more_option_menu.xml" value="0.3223958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

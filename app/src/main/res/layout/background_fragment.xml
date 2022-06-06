@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modifyfragments.BackgroundFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="选择底色"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_yellow"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <com.fbkj.licencephoto.uiwidget.FlowRadioGroups
+        android:id="@+id/flowRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title">
+
+        <RadioButton
+            android:id="@+id/rb_blue"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_blue_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_red"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_red_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_white"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_white_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_blue_transparent"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_blue_transparent_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_red_transparent"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_red_transparent_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_grey_transparent"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_grey_transparent_selector"
+            android:button="@null"
+            android:checked="false" />
+    </com.fbkj.licencephoto.uiwidget.FlowRadioGroups>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

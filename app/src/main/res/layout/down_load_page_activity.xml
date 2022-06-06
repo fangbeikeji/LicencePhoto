@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DownLoadPageActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/actionBar"
+        android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/rem_bg_bitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <com.fbkj.licencephoto.uiwidget.FlowRadioGroups
+        android:id="@+id/flowRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_download">
+
+        <RadioButton
+            android:id="@+id/rb_blue"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+
+            android:background="@drawable/bg_blue_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_red"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+
+            android:background="@drawable/bg_red_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_white"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/bg_white_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_blue_transparent"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/bg_blue_transparent_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_red_transparent"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/bg_red_transparent_selector"
+            android:button="@null"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/rb_grey_transparent"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/bg_grey_transparent_selector"
+            android:button="@null"
+            android:checked="false" />
+    </com.fbkj.licencephoto.uiwidget.FlowRadioGroups>
+
+    <TextView
+        android:id="@+id/tv_download"
+        android:layout_width="180dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="@drawable/next_step"
+        android:text="保存到本地相册"
+        android:elevation="5dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

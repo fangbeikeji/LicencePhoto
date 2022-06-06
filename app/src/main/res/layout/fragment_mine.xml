@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MineFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="28dp"/>
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textSize="14sp"
+            android:text="用户ID"
+            android:textColor="@color/transparent_80"
+            android:layout_toRightOf="@+id/iv_avatar" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/iv_avatar" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_vip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/drawable_vip_crop"
+        android:elevation="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/rl_login">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ic_vip" />
+
+        <TextView
+            android:id="@+id/tv_my_licences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="@dimen/dp_40"
+            android:background="@drawable/drawable_my_licence"
+            android:paddingHorizontal="13dp"
+            android:paddingVertical="5dp"
+            android:text="我的证件照"
+            android:textColor="@color/vip_bg"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/drawable_setting_crop"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_vip">
+
+
+        <com.fbkj.licencephoto.uiwidget.SettingWidget
+            android:id="@+id/sw_licence"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/dp_10"
+            app:icon="@drawable/ic_temp_money"
+            android:visibility="gone"
+            app:iconRight="true"
+            app:title="我的证件照" />
+
+        <com.fbkj.licencephoto.uiwidget.SettingWidget
+            android:id="@+id/sw_order"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/dp_10"
+            app:icon="@drawable/ic_temp_order"
+            app:iconRight="true"
+            app:title="我的订单" />
+
+        <com.fbkj.licencephoto.uiwidget.SettingWidget
+            android:id="@+id/sw_contact"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/dp_10"
+            app:icon="@drawable/ic_temp_star"
+            app:iconRight="true"
+            app:title="联系客服" />
+
+        <com.fbkj.licencephoto.uiwidget.SettingWidget
+            android:id="@+id/sw_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/dp_10"
+            app:icon="@drawable/ic_temp_clock"
+            app:iconRight="true"
+            app:title="关于我们" />
+
+        <com.fbkj.licencephoto.uiwidget.SettingWidget
+            android:id="@+id/sw_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/dp_10"
+            app:icon="@drawable/ic_temp_recommend"
+            app:iconRight="true"
+            app:title="意见反馈" />
+
+<!--        <com.fbkj.licencephoto.uiwidget.SettingWidget-->
+<!--            android:id="@+id/sw_set"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_marginTop="@dimen/dp_10"-->
+<!--            app:icon="@drawable/ic_temp_set"-->
+<!--            app:iconRight="true"-->
+<!--            app:title="设置" />-->
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fbkj.licencephoto">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" /> <!-- android11以上需要MANAGE_EXTERNAL_STORAGE权限，需要动态申请 -->
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 具备摄像头 -->
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LicencePhoto.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:theme">
+        <activity
+            android:name=".ui.complain.ComplainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.logic.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DownLoadPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.logic.SaveLicenceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.logic.FlushPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.address.AddAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.address.AddressManagerActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".ui.SearchActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.mine.RecommendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.mine.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.mine.MyOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MyLicenceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.logic.MoreSizeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.CameraViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.mine.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.logic.PreviewEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.logic.EditImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+
+        <receiver
+            android:name=".wxapi.AppRegister"
+            android:exported="true"
+            android:permission="com.tencent.mm.plugin.permission.SEND">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="um.60d28ea18a102159db7521a1" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

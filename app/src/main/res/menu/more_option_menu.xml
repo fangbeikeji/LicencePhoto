@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="删除"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/menu_payback"
+        android:title="申请退款"
+        android:orderInCategory="2"/>
+
+</menu>

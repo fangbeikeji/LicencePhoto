@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingLayout">
+        <attr name="icon" />
+        <attr name="title" format="string|reference"/>
+        <attr name="iconRight" format="boolean"/> />
+        <attr name="textColor" format="color|reference" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,185 @@
+plugins {
+    id 'dep'
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'walle'
+    id 'kotlin-kapt'
+    id 'com.huawei.agconnect'
+}
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    compileSdkVersion dep.BuildConfig.compileSdkVersion
+    buildToolsVersion dep.BuildConfig.buildToolsVersion
+
+    signingConfigs {
+        config {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file("../key/licencephoto.jks")
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.fbkj.licencephoto"
+        minSdkVersion dep.BuildConfig.minSdkVersion
+        targetSdkVersion dep.BuildConfig.targetSdkVersion
+        versionCode dep.BuildConfig.versionCode
+        versionName dep.BuildConfig.versionName
+        multiDexEnabled dep.BuildConfig.multidexEnabled
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            moduleName "photoprocessing"
+            abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        debug {
+            // 设置混淆
+            debuggable true
+            signingConfig signingConfigs.config
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            multiDexKeepProguard file('multidex-config.pro')
+        }
+
+        release {
+            // 设置混淆
+            minifyEnabled false
+            zipAlignEnabled true
+            debuggable false
+            signingConfig signingConfigs.config
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            multiDexKeepProguard file('multidex-config.pro')
+        }
+
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path 'jni/Android.mk'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    ndkVersion "22.0.7026061"
+
+    walle {
+        // 指定渠道包的输出路径
+        apkOutputFolder = new File("${project.buildDir}/outputs/channels")
+        // 定制渠道包的APK的文件名称
+        apkFileNameFormat = '${appName}-${packageName}-${channel}-${buildType}-v${versionName}-${versionCode}-${buildTime}.apk'
+        // 渠道配置文件
+        channelFile = new File("${project.getProjectDir()}/channel")
+    }
+
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.fragment:fragment-ktx:1.3.2'
+    testImplementation dep.Common.junit
+    androidTestImplementation dep.Common.junitExt
+    androidTestImplementation dep.Common.espressoCore
+
+    implementation dep.AndroidX.stdLib
+    implementation dep.AndroidX.appcompat
+    implementation dep.AndroidX.material
+    implementation dep.AndroidX.constraint
+    implementation dep.AndroidX.legacy
+    implementation dep.AndroidX.coreKtx
+    implementation dep.AndroidX.fragment
+    //lifecycle
+    implementation dep.Lifecycle.liveData
+    implementation dep.Lifecycle.runTime
+    implementation dep.Lifecycle.viewModel
+    //Coroutines
+    implementation dep.Coroutines.coroutinesCore
+    implementation dep.Coroutines.coroutinesAndroid
+    //Retrofit2
+    implementation (dep.Square.retrofit2) { exclude group: "com.squareup.okhttp3" }
+    //转换json
+    implementation (dep.Square.gson) { exclude group: "com.squareup.okhttp3" }
+    //Okhttp3
+    implementation dep.Square.okHttp3
+    implementation dep.Square.interceptor
+    // CameraX
+    implementation dep.Camera.cameraCore
+    implementation dep.Camera.camera2
+    implementation dep.Camera.cameraLifecycle
+    implementation dep.Camera.cameraView
+    //EventBus
+    implementation dep.AndroidX.eventBus
+    //WXPay
+    api dep.Sdk.wxSdk
+    //AliPay
+    api(name: 'alipaysdk-15.8.03.210428205839', ext: 'aar')
+    //UM
+    api(name: 'umeng-uverify-2.5.1', ext: 'aar')
+    api 'com.umeng.umsdk:common:9.4.2'// 必选
+    api 'com.umeng.umsdk:asms:1.4.1'// 必选
+    api dep.Umeng.main// 必选
+    api dep.Umeng.logger// 必选
+    api dep.Umeng.crashShield// 必选
+    api dep.Umeng.uApm
+    //XPop-Dialog
+    api dep.Git.xPop
+    //BRVAH
+    implementation dep.Git.brvah
+    //Banner
+    implementation dep.Git.xBanner
+    //Glide
+    implementation dep.Git.glide
+    annotationProcessor dep.Git.glideCompiler
+    //CityPicker
+    implementation dep.Git.cityPickerView
+    //Retrieve activity anywhere
+    implementation dep.Git.applicationProvider
+    //update
+    implementation (dep.Git.checkVersion) { exclude group: "com.squareup.okhttp3" }
+    //luBan zip
+    implementation dep.Git.zip
+    //multi pak
+    implementation dep.Git.walle
+    //XXPermission
+    implementation dep.Git.permission
+    //GPUImage
+    implementation dep.Git.GPUImage
+    //mmKv
+    implementation dep.Sdk.mmKv
+
+    api dep.Sdk.hwCV
+
+    implementation dep.Sdk.hwBM
+
+
+
+
+}

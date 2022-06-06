@@ -1,0 +1,130 @@
+{
+  "fetcher": [
+    {
+      "sizeName": "美国签证",
+      "sizePixel": "602*602 px",
+      "sizeUnit": "51*51 mm",
+      "sizeIndex": 201
+    },
+    {
+      "sizeName": "日本签证",
+      "sizePixel": "531*531 px",
+      "sizeUnit": "45*45 mm",
+      "sizeIndex": 202
+    },
+    {
+      "sizeName": "越南签证",
+      "sizePixel": "472*708 px",
+      "sizeUnit": "40*60 mm",
+      "sizeIndex": 203
+    },
+    {
+      "sizeName": "入台证（小二寸）",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 204
+    },
+    {
+      "sizeName": "电子护照",
+      "sizePixel": "389*566 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 205
+    },
+    {
+      "sizeName": "海外申请",
+      "sizePixel": "389*566 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 206
+    },
+    {
+      "sizeName": "世界通用",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 207
+    },
+    {
+      "sizeName": "港澳通行",
+      "sizePixel": "389*566 px",
+      "sizeUnit": "33*45 mm",
+      "sizeIndex": 208
+    },
+    {
+      "sizeName": "韩国签证",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 209
+    },
+    {
+      "sizeName": "泰国签证",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 210
+    },
+    {
+      "sizeName": "印度签证",
+      "sizePixel": "602*602 px",
+      "sizeUnit": "51*51 mm",
+      "sizeIndex": 211
+    },
+    {
+      "sizeName": "以色列签证",
+      "sizePixel": "602*602 px",
+      "sizeUnit": "51*51 mm",
+      "sizeIndex": 212
+    },
+    {
+      "sizeName": "签证采集",
+      "sizePixel": "354*472 px",
+      "sizeUnit": "30*40 mm",
+      "sizeIndex": 213
+    },
+    {
+      "sizeName": "入台证",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 214
+    },
+    {
+      "sizeName": "马来西亚签证",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 215
+    },
+    {
+      "sizeName": "新西兰签证",
+      "sizePixel": "897*1204 px",
+      "sizeUnit": "76*102 mm",
+      "sizeIndex": 216
+    },
+    {
+      "sizeName": "意大利签证",
+      "sizePixel": "413*472 px",
+      "sizeUnit": "35*40 mm",
+      "sizeIndex": 217
+    },
+    {
+      "sizeName": "阿根廷签证",
+      "sizePixel": "472*472 px",
+      "sizeUnit": "40*40 mm",
+      "sizeIndex": 218
+    },
+    {
+      "sizeName": "巴西、冰岛签证",
+      "sizePixel": "472*590 px",
+      "sizeUnit": "40*50 mm",
+      "sizeIndex": 219
+    },
+    {
+      "sizeName": "肯尼亚签证",
+      "sizePixel": "590*590 px",
+      "sizeUnit": "50*50 mm",
+      "sizeIndex": 220
+    },
+    {
+      "sizeName": "入金证",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 221
+    }
+  ]
+}

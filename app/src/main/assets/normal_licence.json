@@ -1,0 +1,58 @@
+{
+  "fetcher": [
+    {
+      "sizeName": "一寸",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 101
+    },
+    {
+      "sizeName": "二寸",
+      "sizePixel": "413*579 px",
+      "sizeUnit": "35*49 mm",
+      "sizeIndex": 102
+    },
+    {
+      "sizeName": "小一寸",
+      "sizePixel": "260*378 px",
+      "sizeUnit": "22*32 mm",
+      "sizeIndex": 103
+    },
+    {
+      "sizeName": "小二寸",
+      "sizePixel": "413*531 px",
+      "sizeUnit": "35*45 mm",
+      "sizeIndex": 104
+    },
+    {
+      "sizeName": "大一寸",
+      "sizePixel": "390*567 px",
+      "sizeUnit": "33*48 mm",
+      "sizeIndex": 105
+    },
+    {
+      "sizeName": "大二寸",
+      "sizePixel": "413*625 px",
+      "sizeUnit": "35*53 mm",
+      "sizeIndex": 106
+    },
+    {
+      "sizeName": "三寸",
+      "sizePixel": "637*992 px",
+      "sizeUnit": "54*84 mm",
+      "sizeIndex": 107
+    },
+    {
+      "sizeName": "四寸",
+      "sizePixel": "897*1204 px",
+      "sizeUnit": "76*102 mm",
+      "sizeIndex": 108
+    },
+    {
+      "sizeName": "五寸",
+      "sizePixel": "1051*1500 px",
+      "sizeUnit": "89*127 mm",
+      "sizeIndex": 109
+    }
+  ]
+}

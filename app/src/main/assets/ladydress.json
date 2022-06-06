@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "dressName": "西服01",
+      "url": "",
+      "dressIndex": 400
+    },
+    {
+      "dressName": "西服02",
+      "url": "",
+      "dressIndex": 401
+    },
+    {
+      "dressName": "西服03",
+      "url": "",
+      "dressIndex": 402
+    }
+
+
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "fetcher": [
+    {
+      "sizeName": "身份证",
+      "sizePixel": "307*377 px",
+      "sizeUnit": "26*32 mm",
+      "sizeIndex": 401
+    },
+    {
+      "sizeName": "居住证",
+      "sizePixel": "307*377 px",
+      "sizeUnit": "26*32 mm",
+      "sizeIndex": 402
+    },
+    {
+      "sizeName": "社保卡",
+      "sizePixel": "258*441 px",
+      "sizeUnit": "26*32 mm",
+      "sizeIndex": 403
+    },
+    {
+      "sizeName": "驾驶证、驾照",
+      "sizePixel": "259*377 px",
+      "sizeUnit": "22*32 mm",
+      "sizeIndex": 404
+    },
+    {
+      "sizeName": "简历照片",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 405
+    },
+    {
+      "sizeName": "医保证",
+      "sizePixel": "358*441 px",
+      "sizeUnit": "30*37 mm",
+      "sizeIndex": 406
+    },
+    {
+      "sizeName": "健康证（一寸）",
+      "sizePixel": "295*413 px",
+      "sizeUnit": "25*35 mm",
+      "sizeIndex": 407
+    },
+    {
+      "sizeName": "执法证",
+      "sizePixel": "265*351 px",
+      "sizeUnit": "22*30 mm",
+      "sizeIndex": 408
+    },
+    {
+      "sizeName": "校园卡",
+      "sizePixel": "240*320 px",
+      "sizeUnit": "20*27 mm",
+      "sizeIndex": 409
+    },
+    {
+      "sizeName": "社保卡",
+      "sizePixel": "252*312 px",
+      "sizeUnit": "18*23 mm",
+      "sizeIndex": 410
+    },
+    {
+      "sizeName": "社保卡",
+      "sizePixel": "520*640 px",
+      "sizeUnit": "38*46 mm",
+      "sizeIndex": 411
+    }
+  ]
+}
